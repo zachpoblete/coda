@@ -64,4 +64,6 @@ A repeat is a same finger bigram, there's just no movement so we could call it a
 # In closing
 I made this layout because I wished it existed and it didn't. It's my main layout and I don't see myself switching unless someone figures out a significantly better repeat/magic setup for rowstag. I cannot see myself returning to a muggle layout by choice. Current speed:
 
+![Coda layout visualization](pb.png)
+
 I'd like to say thank you to Oxey and Zak for their tools that did most of the heavy lifting, Nova for actully trying an earlier version and giving feedback, and the AKL discord in general for being a helpful friendly place.
