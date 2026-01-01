@@ -1,7 +1,7 @@
 # CODA
 Coda is my solution to bring 'magic' to standard hardware keyboards. You can use it anywhere you can install your own software. It was designed from the ground up with magic in mind using tools like Oxeylyzer with a repeat corpus, and Mana for analysis.
 
-(pretty picture of layout goes here, include stats)
+![Coda layout visualization](coda.png)
 
 # Magic?
 A 'magic' key is a key that produces a different output in different situations. In most cases the most useful output will be a repeat of the previous key, so "l*" outputs "ll" (fixing so-called 'same finger repeats'). Some keys don't ever repeat, or do so extremely rarely. In those cases we can look for other uses such as "u*" -> "ue", which fixes a 'same finger bigram' found in many modern layouts. You can also override a key with frequent repeats if you feel there is a more useful sequence. The default rules are intended to be uncontroversial.
