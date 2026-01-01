@@ -1,7 +1,7 @@
 # CODA
 Coda is my solution to bring 'magic' to standard hardware keyboards. You can use it anywhere you can install your own software. It was designed from the ground up with magic in mind using tools like Oxeylyzer with a repeat corpus, and Mana for analysis.
 
-![Coda layout visualization](coda.png)
+![Coda layout visualization](images/coda.png)
 
 ```
 coda | monkeyracer
@@ -64,6 +64,6 @@ A repeat is a same finger bigram, there's just no movement so we could call it a
 # In closing
 I made this layout because I wished it existed and it didn't. It's my main layout and I don't see myself switching unless someone figures out a significantly better repeat/magic setup for rowstag. I cannot see myself returning to a muggle layout by choice. Current Coda speed:
 
-![Personal Best](pb.png)
+![Personal Best](images/pb.png)
 
 I'd like to say thank you to Oxey (see:[Oxeylyzer](https://github.com/O-X-E-Y/oxeylyzer)) and Zak (see:[Mana](https://github.com/Zakkkk/mana)) for their tools that did most of the heavy lifting, Nova (Kanata config repo coming soon) for trying an earlier version and giving feedback, and the AKL discord in general for being a helpful friendly place.
