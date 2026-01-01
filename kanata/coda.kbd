@@ -1,0 +1,51 @@
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+q    w    e    r    t    y    u    i    o    p
+a    s    d    f    g    h    j    k    l    ;    '
+z    x    c    v    b    n    m    ,    .    /
+        AltLeft
+)
+
+(deflayer base
+v    d    l    p    f    q    j    o    u    ;
+s    t    r    y    g    b    n    a    e    i    .
+x    k    m    c    w  @magic h    '    @z   @,
+        @cantrip
+)
+
+(defchords chords 60
+    (z) z
+    (,) ,
+    (z ,) /
+)
+
+(defalias
+  z (chord chords z)
+  , (chord chords ,)
+
+  cantrip (tap-hold 0 300 
+    (switch
+      ((key-history n 1)) n break
+      ((key-history b 1)) b break
+      () XX break
+    )
+    AltLeft
+  )
+
+  magic (switch
+    ((and (key-history spc 2) (key-history s 1))) k break
+    ((and (key-history spc 3) (key-history ShiftRight 2) (key-history s 1))) k break
+
+    ((and (key-history o 2) (key-history u 1))) ' break
+
+    ((key-history u 1)) e break
+    ((key-history a 1)) o break
+    ((key-history z 1)) e break
+    ((key-history k 1)) s break
+    ((key-history . 1)) (macro . .) break
+    () rpt break
+  )
+)
