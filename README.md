@@ -59,11 +59,11 @@ The biggest sfb is '*n', which for this layout would occur on 'oon' 'een', etc. 
 # Are repeats really a big deal?
 This is ultimately a personal decision, but I'll present my reasons for concluding that they are.
 
-A repeat is a same finger bigram, there's just no movement so we could call it a 0u sfb. It's counter intuitive but some people type 0u sfbs *slower* than 1u sfbs, this could be influenced by the type of keyboard being used. To get a first hand sense of how fast you type 0u sfbs I recommend spending some time on zippywords.com. See how fast you type repeats and how comfortable you find hitting them as fast as possible. Some of the fastest qwerty typists are also adding a repeat to their layout on Capslock or a punctuation key.
+A repeat is a same finger bigram, there's just no movement so we could call it a 0u sfb. It's counter intuitive but some people type 0u sfbs *slower* than 1u sfbs, this could be influenced by the type of keyboard being used. To get a first hand sense of how fast you type 0u sfbs I recommend spending some time on [zippywords](https://zippywords.com). See how fast you type repeats and how comfortable you find hitting them as fast as possible. Some of the fastest qwerty typists are also adding a repeat to their layout on Capslock or a punctuation key.
 
 # In closing
-I made this layout because I wished it existed and it didn't. It's my main layout and I don't see myself switching unless someone figures out a significantly better repeat/magic setup for rowstag. I cannot see myself returning to a muggle layout by choice. Current speed:
+I made this layout because I wished it existed and it didn't. It's my main layout and I don't see myself switching unless someone figures out a significantly better repeat/magic setup for rowstag. I cannot see myself returning to a muggle layout by choice. Current Coda speed:
 
-![Coda layout visualization](pb.png)
+![Personal Best](pb.png)
 
-I'd like to say thank you to Oxey and Zak for their tools that did most of the heavy lifting, Nova for actully trying an earlier version and giving feedback, and the AKL discord in general for being a helpful friendly place.
+I'd like to say thank you to Oxey (see:[Oxeylyzer](https://github.com/O-X-E-Y/oxeylyzer)) and Zak (see:[Mana](https://github.com/Zakkkk/mana)) for their tools that did most of the heavy lifting, Nova (Kanata config repo coming soon) for trying an earlier version and giving feedback, and the AKL discord in general for being a helpful friendly place.
