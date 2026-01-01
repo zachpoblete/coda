@@ -1,0 +1,3 @@
+[Kanata](https://github.com/jtroo/kanata) is the chosen software layer that allows the layout to function on regular boards and on any OS. coda.kbd is a Kanata config file.
+
+A few additional notes about this implementation. Since we added a key we had to remove a key, based on usage that key was '/', in order to keep it easily accessible you can press 'z' + ',' to produce '/'. Left Alt also gets a little sprinkle of magic and works as an optional repeat key for 'n' and 'b', since using the primary repeat with those would be an SFB. It's also perfectly viable to repeat 'n' and 'b' the old fashioned way by pressing them twice if you find Left Alt uncomfortable to hit.
