@@ -3,6 +3,38 @@ Coda is my solution to bring 'magic' to standard hardware keyboards. You can use
 
 ![Coda layout visualization](coda.png)
 
+```
+coda | monkeyracer
+  v d l p f q j o u ;
+  s t r y g b n a e i .
+  x k m c w * h ' z ,
+
+Magic rules: aa cc dd ee ff gg hh ii jj kk ll mm oo pp qq rr ss tt ue vv ww xx yy ze '' ..
+
+Heatmap score: 74.263%
+Handbalance: 43.892% / 56.108%
+
+Alt: 37.508%
+Rolls (Total): 54.579%
+  Inroll: 22.786%
+  Outroll: 29.692%
+  In3roll: 1.041%
+  Out3roll: 1.061%
+Redirect (+sfs): 6.164%
+  Redirect (Weak) (+sfs): 0.439%
+
+┌────────────────┬──────────┬────────────┬─────────────┐
+│                │  bigram  │  skipgram  │  skipgram2  │
+├────────────────┼──────────┼────────────┼─────────────┤
+│  same finger   │  0.613%  │  6.351%    │  8.208%     │
+│  repeat        │  0.112%  │  3.077%    │  --         │
+│  stretch       │  2.348%  │  4.615%    │  3.441%     │
+│  half scissor  │  1.744%  │  3.416%    │  2.277%     │
+│  full scissor  │  0.444%  │  0.855%    │  1.429%     │
+└────────────────┴──────────┴────────────┴─────────────┘
+```
+(stats via Mana, notably redirect stats in Mana include sfs)
+
 # Magic?
 A 'magic' key is a key that produces a different output in different situations. In most cases the most useful output will be a repeat of the previous key, so "l*" outputs "ll" (fixing so-called 'same finger repeats'). Some keys don't ever repeat, or do so extremely rarely. In those cases we can look for other uses such as "u*" -> "ue", which fixes a 'same finger bigram' found in many modern layouts. You can also override a key with frequent repeats if you feel there is a more useful sequence. The default rules are intended to be uncontroversial.
 
